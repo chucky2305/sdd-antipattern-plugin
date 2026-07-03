@@ -1,0 +1,24 @@
+{
+  "name": "sdd-antipatterns",
+  "owner": {
+    "name": "chucky2305"
+  },
+  "description": "Tools for spec-driven development, starting with a skill that reviews specs against 17 common antipatterns.",
+  "plugins": [
+    {
+      "name": "sdd-review",
+      "source": "./skill",
+      "skills": ["./"],
+      "strict": false,
+      "description": "Reviews a spec written for spec-driven development against a checklist of 17 common antipatterns, catching gaps before it's handed to an AI agent or dev team.",
+      "version": "0.1.0",
+      "author": {
+        "name": "chucky2305"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/chucky2305/sdd-antipattern-plugin",
+      "repository": "https://github.com/chucky2305/sdd-antipattern-plugin",
+      "keywords": ["spec-driven-development", "sdd", "spec-review", "code-review"]
+    }
+  ]
+}
